@@ -26,4 +26,19 @@ int main(){
     bool myBoolean = true;       // Boolean (true or false)
 
     // and use them later on in the code!
+
+    int sum = num + num2; //sum of 92 + 29
+    cout << sum << endl;
+
+    // you can do arithmatic operations here like this also
+
+
+    // declaring many variables of same type
+    int x = 5 , y = 6 , z = 50;
+    cout << x + y + z << endl;
+
+    // we can also reassign values like this
+    x = y = z = 50;
+    cout << x + y + z << endl;
+
 }
