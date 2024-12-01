@@ -21,6 +21,6 @@ int main(){
 
     string p = "10";
     int q = 20 ;
-    string r = p + q ;
+    // string r = p + q ;
 
 }
