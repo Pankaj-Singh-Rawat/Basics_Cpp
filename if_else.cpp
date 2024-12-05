@@ -24,4 +24,10 @@ int main(){
     }else {
         cout << "x is not equal to y" << endl ;
     }
+
+    // short hand if condtition
+    int age = 20 ;
+    string result = (age >= 18) ? "You're eligible to vote" : "You're not eligible to vote";
+    cout << result;
+    
 }
