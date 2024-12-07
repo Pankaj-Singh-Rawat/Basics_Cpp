@@ -7,5 +7,12 @@ int main(){
         cout << i << endl ;
     }
 
+    // we can also use nested loops like :
+    for(int rows = 0 ; rows <= 2 ; rows++){
+        cout << "Row: " << rows << endl ;
+        for (int col = 0 ; col <= 10 ; col++){
+            cout << "Column: " << col << endl ;
+        }
+    }
     
 }
