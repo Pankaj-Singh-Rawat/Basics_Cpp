@@ -14,5 +14,11 @@ int main(){
             cout << "Column: " << col << endl ;
         }
     }
+
+    // for each : this type of loop is used in cases where we are working with arrays:
+    int myNumers[5] = {1 , 2 , 3, 4 ,5 };
+    for (int each : myNumers){
+        cout << each << endl ;
+    }
     
 }
