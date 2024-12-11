@@ -10,5 +10,8 @@ int main(){
         cout << cars[i] << "\n";
     }
 
-    
+    // using for each loop in arrays
+    for ( int car : cars ){
+        cout << car << endl ;
+    }
 }
