@@ -15,4 +15,12 @@ int main(){
         cout << car << " " ;
     }
     cout << endl ;
+
+    // to add a string in the array we use :
+    cars_again.push_back("Once More");
+
+    for ( string car1 : cars_again){
+        cout << car1 << endl ;
+    }
+
 }
