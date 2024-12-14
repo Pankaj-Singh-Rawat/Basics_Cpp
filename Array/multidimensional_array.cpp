@@ -16,5 +16,10 @@ int main(){
 
     cout << letters[0][0] << endl ;
 
-    
+    // looping through multidimensional arrays:
+    for(int i = 0 ; i < 2 ; i++){
+        for (int j = 0 ; j < 5 ; j++){
+            cout << letters[i][j] << endl;
+        }
+    }
 }
