@@ -22,4 +22,45 @@ int main(){
             cout << letters[i][j] << endl;
         }
     }
+
+    // why multidimension arrays 
+    // taking an example :
+    bool ships [4][4] = {
+        {0 , 1 , 1 , 0 }, 
+        {0 , 0 , 0 , 0 },
+        {0 , 0 , 1 , 0 },
+        {0 , 0 , 1 , 0 }
+    };  // we put 1 to indicate there is a ship
+
+    // initial values 
+    int hits = 0 ;
+    int numberofTurns = 0 ;
+
+    while ( hits < 4 ){
+        int row , column ;
+        cout << "Selecting coordinates: \n";
+        
+        cout << "Choose a row number between 0 and 3: ";
+        cin >> row ;
+
+        cout << "Choose a column number between 0 and 3: ";
+        cin >> column ;
+
+        if (ships[row][column]){
+
+            ships[row][column] = 0 ;
+
+            hits++ ;
+
+            cout << "HIT! " << (4-hits) << " left.\n\n";
+        }else {
+            cout << "Miss\n\n";
+        }
+
+        numberofTurns++ ;
+    }
+
+    cout << "Victory!\n";
+    cout << "You won in " << numberofTurns << " turns" ;
+
 }
