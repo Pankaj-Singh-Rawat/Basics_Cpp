@@ -37,5 +37,21 @@ int main (){
     cout << myCar1.brand << " " << myCar1.model << " " << myCar1.year << endl ; 
     cout << myCar2.brand << " " << myCar2.model << " " << myCar2.year << endl ; 
 
+    //named structures
+    struct myDataType{
+        int myNum ;
+        string mystring;
+    };
+
+    myDataType details;
+    details.myNum = 22;
+    details.mystring = "Pankaj";
+
+    myDataType details2 ;
+    details2.myNum = 20 ;
+    details2.mystring = "Pankaj";
+
+    cout << "age: " << details.myNum << " Name: " << details.mystring << endl ;
+    cout << "age: " << details2.myNum << " Name: " << details2.mystring << endl ;
     
 }
