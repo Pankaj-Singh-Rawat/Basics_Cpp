@@ -25,4 +25,28 @@ int main(){
     enum Num newNum = NUM2 ;
     cout << newNum << endl ;
 
+    // Enum in a switch statements
+    enum Bevel {
+        VALUE1 = 1, // first value is 50 ;
+        VALUE2,
+        VALUE3
+    };
+
+    enum Bevel anotherNewNum = VALUE3;
+
+    switch (anotherNewNum){
+        case 1:
+            cout << "Initial value" << endl ;
+            break ;
+        case 2:
+            cout << "Middle value" << endl ;
+            break ;
+        case 3:
+            cout << "Final value" << endl ;
+            break;
+
+    }
+
+    return 0 ;
+
 }
