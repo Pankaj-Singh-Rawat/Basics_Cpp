@@ -8,4 +8,8 @@ int main (){
     cout << ptr << endl ; // outputs the address of food ;
     cout << *ptr << endl ; // outputs the value stored at the address
 
+    // modifying pointers
+    *ptr = "Borgir";
+    cout << *ptr << endl ; // pointer is modified
+
 }
