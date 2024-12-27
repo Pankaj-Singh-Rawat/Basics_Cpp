@@ -10,6 +10,11 @@ void defaultFunctions(string country = "INDIA"){
     cout << country << endl;
 }
 
+    // Multiple Parameters 
+void multipleParameters(string name , int age ){
+    cout << "name: " << name << " " << "age: "<< age << endl ;
+}
+
 int main(){
     functionName("Pankaj");
     functionName("Singh");
@@ -18,5 +23,7 @@ int main(){
     defaultFunctions("Russia");
     defaultFunctions("Nepal");
     defaultFunctions("China");
+    
+    multipleParameters("Pankaj" , 20);
 }
 
